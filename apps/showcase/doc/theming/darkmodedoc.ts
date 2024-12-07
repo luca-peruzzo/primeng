@@ -23,7 +23,8 @@ import { Component } from '@angular/core';
             </div>
             <p>In case you prefer to use dark mode all the time, apply the <i>darkModeSelector</i> initially and never change it.</p>
         </app-docsectiontext>
-    `
+    `,
+    standalone: false
 })
 export class DarkModeDoc {
     code1 = {

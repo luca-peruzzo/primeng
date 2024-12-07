@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
             <p>Replaces the current presets entirely, common use case is changing the preset dynamically at runtime.</p>
         </app-docsectiontext>
         <app-code [code]="code" selector="use-preset-demo" [hideToggleCode]="true"></app-code>
-    `
+    `,
+    standalone: false
 })
 export class UsePresetDoc {
     code = {

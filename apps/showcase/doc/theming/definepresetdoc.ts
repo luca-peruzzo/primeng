@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
             <p>The <i>definePreset</i> utility is used to customize an existing preset during the PrimeNG setup. The first parameter is the preset to customize and the second is the design tokens to override.</p>
         </app-docsectiontext>
         <app-code [code]="code" selector="define-preset-demo" [hideToggleCode]="true"></app-code>
-    `
+    `,
+    standalone: false
 })
 export class DefinePresetDoc {
     code = {

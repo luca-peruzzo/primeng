@@ -22,7 +22,8 @@ import { Component } from '@angular/core';
                 </p-tabpanel>
             </p-tabs>
         </div>
-    `
+    `,
+    standalone: false
 })
 export class PresetsDoc {
     aura = {

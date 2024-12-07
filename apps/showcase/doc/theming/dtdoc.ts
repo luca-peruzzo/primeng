@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
             <p>The <i>$dt</i> function returns the information about a token like the full path and value. This would be useful if you need to access tokens programmatically.</p>
         </app-docsectiontext>
         <app-code [code]="code" selector="dt-demo" [hideToggleCode]="true"></app-code>
-    `
+    `,
+    standalone: false
 })
 export class DtDoc {
     code = {

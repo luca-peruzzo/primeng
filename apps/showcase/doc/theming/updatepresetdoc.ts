@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
             <p>Merges the provided tokens to the current preset, an example would be changing the primary color palette dynamically.</p>
         </app-docsectiontext>
         <app-code [code]="code" selector="update-preset-demo" [hideToggleCode]="true"></app-code>
-    `
+    `,
+    standalone: false
 })
 export class UpdatePresetDoc {
     code = {

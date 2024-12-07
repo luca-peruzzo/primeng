@@ -29,7 +29,8 @@ import { Component } from '@angular/core';
         .my-switch-slider .p-toggleswitch-slider:before {
             border-radius: 0;
         }
-    `
+    `,
+    standalone: false
 })
 export class SpecificityDoc {
     checked: boolean = true;

@@ -7,7 +7,8 @@ import { Component } from '@angular/core';
             <p>Returns shades and tints of a given color from 50 to 950 as an array.</p>
         </app-docsectiontext>
         <app-code [code]="code" selector="palette-demo" [hideToggleCode]="true"></app-code>
-    `
+    `,
+    standalone: false
 })
 export class PaletteDoc {
     code = {
