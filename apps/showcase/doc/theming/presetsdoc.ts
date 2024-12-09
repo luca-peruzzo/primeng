@@ -10,7 +10,7 @@ import { Component } from '@angular/core';
                 may use them out of the box with modifications or utilize them as reference in case you need to build your own presets from scratch.
             </p>
         </app-docsectiontext>
-    `
+    `,
     standalone: false
 })
 export class PresetsDoc {}

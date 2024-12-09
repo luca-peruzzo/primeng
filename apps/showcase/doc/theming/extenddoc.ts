@@ -11,7 +11,8 @@ import { Component } from '@angular/core';
             <p>The example preset configuration adds a new <i>accent</i> button with custom <i>button.accent.color</i> and <i>button.accent.inverse.color</i> tokens. It is also possible to add tokens globally to share them within the components.</p>
         </app-docsectiontext>
         <app-code [code]="code" selector="component-demo" [hideToggleCode]="true"></app-code>
-    `
+    `,
+    standalone: false
 })
 export class ExtendDoc {
     code = {

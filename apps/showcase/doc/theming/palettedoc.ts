@@ -8,7 +8,7 @@ import { Component } from '@angular/core';
         </app-docsectiontext>
         <app-code [code]="code1" selector="palette-demo" [hideToggleCode]="true" class="block mb-4"></app-code>
         <app-code [code]="code2" selector="palette-demo" [hideToggleCode]="true"></app-code>
-    `
+    `,
     standalone: false
 })
 export class PaletteDoc {

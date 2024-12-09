@@ -13,6 +13,7 @@ import { Component } from '@angular/core';
                 without a layer has the highest CSS specificity, so you'll be able to override styles regardless of the location or how strong a class is written.
             </p>
         </app-docsectiontext>
-    `
+    `,
+    standalone: false
 })
 export class SpecificityDoc {}
